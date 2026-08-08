@@ -49,11 +49,19 @@ include/hardware.inc    порты SMS
 include/ram.inc         именованные переменные Work RAM
 assets/*.bin            точные неисполняемые диапазоны ROM
 tools/miniz80asm.py     автономный двухпроходный Z80-ассемблер
+tools/decode_graphics.py декодирование сжатой графики в PNG
+tools/rename_assets.py  переименование assets по смыслу
 build.py                 сборка и строгая проверка хешей
 docs/symbols.csv         полный индекс меток
-docs/assets.csv          диапазоны бинарных assets
+docs/assets.csv          диапазоны и имена бинарных assets
 docs/                    результаты и методика анализа
 ```
+
+Бинарные assets в `assets/` носят осмысленные имена, отражающие их назначение:
+`road_tilemap_hud_labels.bin`, `player_physics_tables.bin`,
+`road_curvature_tables.bin`, `track86_race_start.bin`,
+`stage_palettes_and_init_state.bin`, `message_strings.bin` и др.
+Сопоставление новых имён со старыми диапазонами см. в `docs/ASSET_RENAME_PLAN.md`.
 
 ## Что именно декомпилировано
 
