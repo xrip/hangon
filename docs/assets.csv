@@ -1,0 +1,40 @@
+start_hex,end_hex,size,representation
+001D,001D,1,inline .db
+002C,002F,4,inline .db
+0065,0065,1,inline .db
+0759,0763,11,inline .db
+07C1,07C3,3,inline .db
+080D,0958,332,rom_data_080d_0958.bin
+0F8F,1269,731,rom_data_0f8f_1269.bin
+1304,1330,45,rom_data_1304_1330.bin
+15CB,23D2,3592,rom_data_15cb_23d2.bin
+2469,247C,20,rom_data_2469_247c.bin
+2553,2A5C,1290,rom_data_2553_2a5c.bin
+2CC5,2EF2,558,rom_data_2cc5_2ef2.bin
+2FDD,3087,171,rom_data_2fdd_3087.bin
+3136,3405,720,rom_data_3136_3405.bin
+3489,34BE,54,rom_data_3489_34be.bin
+34D1,3552,130,rom_data_34d1_3552.bin
+35D0,35E4,21,rom_data_35d0_35e4.bin
+3669,3693,43,rom_data_3669_3693.bin
+36FF,370A,12,inline .db
+37CF,37D8,10,inline .db
+3939,3944,12,inline .db
+3976,39FB,134,rom_data_3976_39fb.bin
+3A80,3B0A,139,rom_data_3a80_3b0a.bin
+3C1D,3C3C,32,rom_data_3c1d_3c3c.bin
+3D9B,3DAA,16,inline .db
+3E79,7116,12958,rom_data_3e79_7116.bin
+7383,748A,264,rom_data_7383_748a.bin
+76D9,76DC,4,inline .db
+76FE,7701,4,inline .db
+770B,795B,593,rom_data_770b_795b.bin
+795C,79A5,74,rom_data_795c_79a5.bin
+79A6,79BB,22,rom_data_79a6_79bb.bin
+79BC,7A41,134,rom_data_79bc_7a41.bin
+7A42,7B72,305,rom_data_7a42_7b72.bin
+7B73,7D37,453,rom_data_7b73_7d37.bin
+7D38,7D63,44,rom_data_7d38_7d63.bin
+7D64,7D73,16,inline .db
+7D74,7D82,15,inline .db
+7D83,7DBE,60,rom_data_7d83_7dbe.bin
